@@ -41,7 +41,7 @@ async def start(client, message):
                     InlineKeyboardButton('🙄 Source', url='https://t.me/lootwithmohan'),
                     InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/lootwithmohan'),
                     InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/lootwithmohan')
-                  ],[
+                ]
             ]
         )
     else:
