@@ -42,7 +42,6 @@ async def start(client, message):
                     InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/lootwithmohan'),
                     InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/lootwithmohan')
                   ],[
-                    InlineKeyboardButton('✨ Subscribe Now YouTube ✨', url='https://youtube.com/channel/UC-fgv0LABBvae5SL1rTi3jA')
             ]
         )
     else:
