@@ -2,11 +2,11 @@
 # @iamlooter1
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from Song_Downloader_Bot.plugins import *
+from ZKSongBot.plugins import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from Song Downloader Bot import Jebot as app
-from Song Downloader Bot import LOGGER
+from ZKSongBot import Jebot as app
+from ZKSongBot import LOGGER
 
 pm_start_text = """
 <b>Hi [{}](tg://user?id={}), I'm Song Downloader Bot.</b>
