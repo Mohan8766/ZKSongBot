@@ -1,5 +1,5 @@
-# ZauTeKm <https://t.me/ZauTeKm>
-# @ZauTeKm
+# Loot With Us <https://t.me/lootwithmohan>
+# @iamlooter1
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from ZKSongBot.plugins import *
@@ -13,7 +13,7 @@ pm_start_text = """
 
 Send me /help for know my commands.
 
-➟ <b>Mαde by ▷ @ZauteKm</b>
+➟ <b>Mαde by ▷ @iamlooter1</b>
 """
 
 help_text = """
@@ -23,7 +23,7 @@ help_text = """
 - /deezer <song name>: Download songs via Deezer
 - Send youtube url to my pm for download it on audio format
 
-➟ <b>Mαde by ▷ @ZauteKm</b>
+➟ <b>Mαde by ▷ @iamlooter1</b>
 """
 
 @app.on_message(filters.command("start"))
@@ -35,12 +35,12 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-                    InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6')
+                    InlineKeyboardButton('👥 Group', url='https://t.me/lootwithmohan'),
+                    InlineKeyboardButton('Channel 📢', url='https://t.me/lootwithmohan')
                   ],[
-                    InlineKeyboardButton('🙄 Source', url='https://t.me/iZaute/7'),
-                    InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/iZaute/8'),
-                    InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/7gSUxv6vgQE3M2Fl')
+                    InlineKeyboardButton('🙄 Source', url='https://t.me/lootwithmohan'),
+                    InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/lootwithmohan'),
+                    InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/lootwithmohan')
                   ],[
                     InlineKeyboardButton('✨ Subscribe Now YouTube ✨', url='https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ')
                 ]
@@ -55,5 +55,5 @@ async def start(client, message):
     await message.reply(help_text)
 
 app.start()
-LOGGER.info("ZKSongBot is online.")
+LOGGER.info("Song Downloader Bot is online.")
 idle()
